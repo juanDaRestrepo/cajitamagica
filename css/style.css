@@ -1,0 +1,33 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+:root {
+  --primary-color-1: #ffc5bb;
+  --primary-color-2: #79c7c0;
+  --primary-font-family-1: "Inika" , serif;
+}
+
+.bg-primary-1 {
+  background: var(--primary-color-1);
+}
+
+.bg-primary-2 {
+  background-color: var(--primary-color-2);
+}
+
+.text-white {
+    color: white
+}
+
+.promo-info {
+    font-family: "Inika", serif;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
