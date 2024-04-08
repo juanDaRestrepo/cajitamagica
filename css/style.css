@@ -63,9 +63,6 @@
   margin-top: 1rem;
 }
 
-.ml-26px{
-  margin-left: 26px;
-}
 
 /* Spacing Properties*/
 
@@ -207,13 +204,23 @@
 
 /* Custom nav*/
 
-.fs-2rem {
+.fs-2 {
   font-size: 2rem;
 }
 
-.text-decoration-none{
+.text-decoration-none {
   text-decoration: none; /* Eliminar el subrayado predeterminado */
 }
 
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.625rem;
+}
+
+.first-nav-link {
+  color: white;
+  text-decoration: none;
+}
 
 /* Custom css */
