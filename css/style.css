@@ -63,6 +63,10 @@
   margin-top: 1rem;
 }
 
+.ml-26px{
+  margin-left: 26px;
+}
+
 /* Spacing Properties*/
 
 /* Position */
@@ -200,11 +204,16 @@
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* Custom select */
 
+/* Custom nav*/
 
+.fs-2rem {
+  font-size: 2rem;
+}
 
-
+.text-decoration-none{
+  text-decoration: none; /* Eliminar el subrayado predeterminado */
+}
 
 
 /* Custom css */
