@@ -224,3 +224,35 @@
 }
 
 /* Custom css */
+
+/* custom image and btn */
+
+.image-container {
+  width: 100%; 
+  height: auto; 
+  display: flex;
+  justify-content: center; /* centrar horizontalmente*/
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden; /* Para recortar cualquier parte de la imagen que esté fuera del div */
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  bottom: -12vh; /* Ajusta la posición vertical del botón (5% del alto de la ventana) */
+  left: calc(23% - 84px); /* Ajusta la posición horizontal del botón (centrado) */
+  width: 290px; /* Ajusta el ancho del botón */
+  height: 55px; /* Ajusta la altura del botón */
+  padding: 10px 20px; /* Ajusta el padding del botón según sea necesario */
+  background-color: #6EC9C0; /* Color de fondo del botón */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Color del texto del botón */
+  font-family:"Inika" , bold ;
+  font-size: 30px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  /* Agrega otros estilos según tus preferencias */
+}
