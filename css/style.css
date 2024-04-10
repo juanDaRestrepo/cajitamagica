@@ -186,12 +186,59 @@
   border-radius: 12px;
 }
 
-/* logo position: */
-.logo-position{
-  height: 120px;
-  margin-right: 320px;
+/* logos positions: */
+.cajita-magica-logo-sizing {
+  height: 120px; 
 }
 
+.cart-user-icons-positions {
+  margin-top: 25px;
+  margin-left: 190px;
+}
+
+/* search bar styles */
+.search-bar-container {
+  margin-right: 20px;
+  margin-top: 75px;
+  width: 290px;
+  height: 40px;
+  background-color: #fff; /* Fondo blanco */
+  border: 2px solid #79c7c0; /* Contorno con color especificado */
+  color: #79c7c0; /* Color del texto */
+  display: flex;
+  align-items: center;
+}
+
+/* enter text styles */
+.search-input {
+  font-family: "Inika", bold;
+  font-weight: bold;
+  color: #6EC9C0;
+  font-size:16px;
+  padding: 8px 30px 8px 8px; /* Ajusta el padding para que el texto no se superponga con el botón */
+  border: none;
+  width: 100%; /* Hace que el campo de entrada de texto ocupe todo el ancho de la barra de navegación */
+}
+
+/* placeholder custom text */
+.search-input::placeholder {
+  color: #79c7c0; /* Cambia el color del texto predeterminado */
+  font-weight: bold;
+}
+
+/* search btn styles */
+.search-button {
+    padding: 8px;
+    background-color: transparent; /* Fondo transparente */
+    border: none;
+    cursor: pointer;
+}
+
+/* search icon styles */
+.material-icons {
+    vertical-align: middle;
+    color: #6EC9C0; /* Color del ícono de la lupa */
+}
 
 /* Style items (options): */
 .select-items {
