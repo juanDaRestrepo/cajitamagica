@@ -187,7 +187,7 @@
 }
 
 /* logos positions: */
-.cajita-magica-logo-sizing {
+.cajita-magica-logo-height {
   height: 120px; 
 }
 
@@ -228,16 +228,16 @@
 
 /* search btn styles */
 .search-button {
-    padding: 8px;
-    background-color: transparent; /* Fondo transparente */
-    border: none;
-    cursor: pointer;
+  padding: 8px;
+  background-color: transparent; /* Fondo transparente */
+  border: none;
+  cursor: pointer;
 }
 
 /* search icon styles */
 .material-icons {
-    vertical-align: middle;
-    color: #6EC9C0; /* Color del ícono de la lupa */
+  vertical-align: middle;
+  color: #6EC9C0; /* Color del ícono de la lupa */
 }
 
 /* Style items (options): */
