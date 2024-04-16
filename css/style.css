@@ -10,6 +10,8 @@
   --primary-color-1: #ffc5bb;
   --primary-color-2: #79c7c0;
   --primary-font-family-1: "Inika" , serif;
+  --primary-font-family-2: "Lilita" , serif;
+  --primary-font-family-3:'Inria Sans', sans-serif; 
 }
 
 .bg-primary-1 {
@@ -22,6 +24,14 @@
 
 .text-white {
     color: white
+}
+
+.text-blue {
+  color:#6EC9C0
+}
+
+.text-center {
+  text-align: center;
 }
 
 
@@ -281,7 +291,7 @@
   text-decoration: none;
 }
 
-/* Custom css */
+/* Custom nav */
 
 /* custom image and btn */
 
@@ -315,3 +325,67 @@
   cursor: pointer;
   /* Agrega otros estilos según tus preferencias */
 }
+
+/* custom image and btn */
+
+/*featured-products */
+
+.featured-products-container {
+    height: 337px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: none;   
+}
+
+.title-container {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.font-titles-products { 
+  font-size: 2rem;
+  font-family: 'Lilita One', sans-serif;
+  text-align: center;
+}
+
+
+.image-size {
+  width: 280px;
+  height: 280px;
+}
+
+.image-container-margin {
+  margin-right: 54px;
+}
+  
+.image-container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  
+} 
+
+.image-description {
+  left: 40%;
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para la descripción */
+  padding: 0%; /* Añade un poco de espacio alrededor de la descripción */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+}
+
+.font-product {
+  font-size: 1.5rem;
+  font-family: 'Inria Sans', sans-serif; 
+  text-align: center;
+  font-weight: bold;
+  color: #5B5555;
+}
+/*featured-products */
