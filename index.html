@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Cajita Magica</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
             lo iconos de las redes sociales y la selección de ciudad 
             y las otras dos donde va el resto de la información que esta en el diseño
         -->
-        <div class="flex justify-between">
+        <div class="flex justify-between relative">
           <div class="flex mt-4 ml-4 W-33-3 h-fit">
             <img src="./assets/logos/logo-facebook.svg" alt="logo-facebook"  class="mr-2 h-9">
             <img src="./assets/logos/logo-instagram.svg" alt="logo-instagram" class="mr-2 h-9">
@@ -27,21 +28,29 @@
                 <option value="1">Pereira</option>
                 <option value="2">Armenia</option>
                 <option value="3">Bogota</option>
-
               </select>
             </div>
           </div>
 
-          <div class="logo-container W-33-3 flex justify-center">
-            <img src="./assets/logos/logo-caijita-magica.svg" alt="">
+          <div class="W-33-3 flex justify-center">
+            <img class="cajita-magica-logo-height" src="./assets/logos/logo-caijita-magica.svg" alt="Cajita-Mágica-logo">
           </div>
 
-          <div class="search-bar-container W-33-3">
+          <div>
+            <div class="absolute cart-user-icons-positions">
+              <img class="h-9 " src="assets\iconos\icon-user.svg" alt="Icono-Usuario">
+              <img class="h-9 " src="assets\iconos\icon-shopping-cart.svg" alt="Icono-Carrito-Compras">
+            </div>
 
-          </div>
+            <div class="search-bar-container ">
+              <input class="search-input" type="text" placeholder="¿Qué deseas buscar? ...">
+              <button type="submit" class="search-button"><i class="material-icons">search</i></button>
+            </div>
+         </div>
+
         </div>
 
-        <div class=" bg-primary-2 promo-info ">
+        <div class=" mt-2 bg-primary-2 promo-info ">
           <nav class="fs-2 primary-font-family-1  ">
             <a class="first-nav-link" href="index.html">Inicio</a>
             <a class="nav-link" href="#">Productos</a>

@@ -63,6 +63,10 @@
   margin-top: 1rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 
 /* Spacing Properties*/
 
@@ -182,6 +186,60 @@
   border-radius: 12px;
 }
 
+/* logos positions: */
+.cajita-magica-logo-height {
+  height: 120px; 
+}
+
+.cart-user-icons-positions {
+  margin-top: 25px;
+  margin-left: 190px;
+}
+
+/* search bar styles */
+.search-bar-container {
+  margin-right: 20px;
+  margin-top: 75px;
+  width: 290px;
+  height: 40px;
+  background-color: #fff; /* Fondo blanco */
+  border: 2px solid #79c7c0; /* Contorno con color especificado */
+  color: #79c7c0; /* Color del texto */
+  display: flex;
+  align-items: center;
+}
+
+/* enter text styles */
+.search-input {
+  font-family: "Inika", bold;
+  font-weight: bold;
+  color: #6EC9C0;
+  font-size:16px;
+  padding: 8px 30px 8px 8px; /* Ajusta el padding para que el texto no se superponga con el botón */
+  border: none;
+  width: 100%; /* Hace que el campo de entrada de texto ocupe todo el ancho de la barra de navegación */
+}
+
+/* placeholder custom text */
+.search-input::placeholder {
+  color: #79c7c0; /* Cambia el color del texto predeterminado */
+  font-weight: bold;
+}
+
+/* search btn styles */
+.search-button {
+  padding: 8px;
+  background-color: transparent; /* Fondo transparente */
+  border: none;
+  cursor: pointer;
+}
+
+/* search icon styles */
+.material-icons {
+  vertical-align: middle;
+  color: #6EC9C0; /* Color del ícono de la lupa */
+}
+
 /* Style items (options): */
 .select-items {
   position: absolute;
@@ -235,12 +293,13 @@
   align-items: center; /* Centrar verticalmente */
   overflow: hidden; /* Para recortar cualquier parte de la imagen que esté fuera del div */
   object-fit: cover;
+  position: relative;
 }
 
 .btn {
   position: absolute;
-  bottom: -12vh; /* Ajusta la posición vertical del botón (5% del alto de la ventana) */
-  left: calc(23% - 84px); /* Ajusta la posición horizontal del botón (centrado) */
+  bottom: 180px;
+  left: 192px; /* Ajusta la posición horizontal del botón (centrado) */
   width: 290px; /* Ajusta el ancho del botón */
   height: 55px; /* Ajusta la altura del botón */
   padding: 10px 20px; /* Ajusta el padding del botón según sea necesario */
