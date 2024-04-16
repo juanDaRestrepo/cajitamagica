@@ -67,6 +67,10 @@
   margin-left: 0.5rem;
 }
 
+.mr-54px { 
+margin-right: 54px;
+}
+
 .mr-2	{
   margin-right: 0.5rem;
 }
@@ -418,9 +422,6 @@
   margin-bottom: 35px;
 } 
 
-.margin-right {
-  margin-right: 54px;
-}
 
 .margin-button-categories {
 margin-bottom: auto;
