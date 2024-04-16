@@ -43,12 +43,26 @@
 .justify-around {
   justify-content: space-around;
 }
-
 .justify-between {
   justify-content: space-between;
 }
 .justify-center {
   justify-content: center;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.flex-row {
+  flex-direction: row;
+}
+.display-block {
+  display: block;
 }
 
 /* Flex Properties */
@@ -61,6 +75,7 @@
 .ml-4	{
   margin-left: 1rem;
 }
+
 .ml-2	{
   margin-left: 0.5rem;
 }
@@ -76,7 +91,12 @@
 .mt-2 {
   margin-top: 0.5rem;
 }
-
+.mt-60px {
+  margin-top: 60px;
+}
+.ml-52px {
+  margin-left: 52px;
+}
 
 /* Spacing Properties*/
 
@@ -95,7 +115,7 @@
   height: 24rem;
 }
 
-.h-9{
+.h-9 {
   height: 2.25rem;
 }
 
@@ -113,7 +133,7 @@
   width: 100%;
 }
 
-.w-2-6{
+.w-2-6 {
   width: 33.3%;
 }
 
@@ -371,7 +391,7 @@
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
-  
+
 } 
 
 .image-description {
@@ -389,3 +409,79 @@
   color: #5B5555;
 }
 /*featured-products */
+
+/*featured-footer */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/images/img-rectangulo-footer.png");
+}
+
+.location-logo-container {
+  margin-top: 40px;
+  margin-left: 12px;
+  
+  width: 440px;
+  height: 403px;
+}
+
+.round-logo-size {
+  width: 150px;
+  height: 150px;
+}
+
+.footer-logos-sizing {
+  width: 45px;
+  height: 45px;
+}
+
+.subtitle-text {
+  margin-top: 5px;
+  font-family: "Inika", bold;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.paragraph-text {
+  margin-top: 5px;
+  font-family: "Inika", bold;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-questions-container {
+  flex: 1;
+  margin-top: 40px;
+  margin-left: 48px;
+  width: 440px;
+  height: 403px;
+}
+
+.information-container {
+  flex: 1;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 440px;
+  height: 403px;
+}
+
+.question-logo-size {
+width: 55px;
+height: 43px;
+}
+
+.exclamation-icon-size {
+  width:38px ;
+  height:36px ;
+}
+
+.payment-image-custom {
+  height: 95px;
+  width: 100%;
+}
+
+/*featured-footer */
