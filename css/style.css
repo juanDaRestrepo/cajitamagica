@@ -410,8 +410,55 @@
 }
 /*featured-products */
 
+/*kits-img-container*/
+.kits-img-container{
+  background-size: auto; /*para que ocupe todo el espacio sin estirar la imagen */
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 61px;
+  margin-right: 61px;
+  height: 500px;
+  background-image: url("../assets/images/arma-tus-kits-img.svg");
+}
+
+.kits-btn {
+  position: absolute;
+  bottom: -1210px; /* Ajusta la posición vertical del botón */
+  left: calc(50% - -157px); /* Ajusta la posición horizontal del botón */
+  width: 290px; /* Ajusta el ancho del botón */
+  height: 55px; /* Ajusta la altura del botón */
+  padding: 10px 20px; /* Ajusta el padding del botón según sea necesario */
+  background-color: #6EC9C0; /* Color de fondo del botón */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  font-family: "Inika", bold;
+  font-size: 30px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+/*kits-img-container*/
+
+/*social-media-container*/
+.social-media-container {
+  margin-top: 20px;
+  height: 337px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: none; 
+  margin-bottom: 30px;
+}
+/*social-media-container*/
+
 /*featured-footer */
 .footer-container {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   flex-direction: row;
   width: 100%;
